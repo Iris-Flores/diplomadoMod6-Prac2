@@ -1,0 +1,11 @@
+Practica 2 Vue3
+Nombre(s) de integrante(s):
+- Iris Irené Flores Perales
+Pasos para iniciar el proyecto
+1) npm install
+2) cp .env.example .env
+3) editar .env VUE_APP_API_URL=http://localhost:3000
+4) npm run serve
+
+
+5) json-server --watch db.json --port 3000

@@ -1,0 +1,135 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "precio": 80,
+      "stock": 9
+    },
+    {
+      "id": 2,
+      "titulo": "El Principito",
+      "autor": "Antoine de Saint-Exupe",
+      "precio": 40,
+      "stock": 5
+    },
+    {
+      "titulo": "El amor en los tiempos del cólera",
+      "autor": "Gabriel García Márquez",
+      "precio": 60,
+      "stock": 10,
+      "id": 4
+    },
+    {
+      "titulo": "The Art of Computer Programming (Vol. 1–4)",
+      "autor": "Donald Knuth",
+      "precio": 60,
+      "stock": 10,
+      "id": 5
+    },
+    {
+      "titulo": "Robert C. Martin (Uncle Bob)",
+      "autor": "Clean Code",
+      "precio": 85,
+      "stock": 9,
+      "id": 6
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Luis Martínez",
+      "email": "luis.martinez@email.com",
+      "telefono": "71234567"
+    },
+    {
+      "id": 3,
+      "nombre": "Luisa Gómez",
+      "email": "luisa.gomz@email.com",
+      "telefono": "78475411"
+    },
+    {
+      "nombre": "Gabriel Sánchez",
+      "email": "gabriel@email.com",
+      "telefono": "69647415",
+      "id": 4
+    },
+    {
+      "nombre": "Pedro Gutierrez",
+      "email": "pedro@email.com",
+      "telefono": "62724514",
+      "id": 5
+    },
+    {
+      "nombre": "Marianela Pando",
+      "email": "marianela@email.com",
+      "telefono": "67854125",
+      "id": 6
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "fecha": "2025-07-25",
+      "detalle": [
+        {
+          "libroId": 2,
+          "cantidad": 1,
+          "precioUnitario": 50
+        }
+      ],
+      "total": 50
+    },
+    {
+      "id": 2,
+      "clienteId": 4,
+      "fecha": "2025-07-26",
+      "detalle": [
+        {
+          "libroId": 1,
+          "cantidad": 1,
+          "precioUnitario": 85
+        },
+        {
+          "libroId": 2,
+          "cantidad": 1,
+          "precioUnitario": 65
+        }
+      ],
+      "total": 150
+    },
+    {
+      "id": 4,
+      "clienteId": 6,
+      "fecha": "2025-07-25",
+      "detalle": [
+        {
+          "libroId": 6,
+          "cantidad": 1,
+          "precioUnitario": 85
+        },
+        {
+          "libroId": 5,
+          "cantidad": 1,
+          "precioUnitario": 60
+        }
+      ],
+      "total": 145
+    },
+    {
+      "id": 5,
+      "clienteId": 3,
+      "fecha": "2025-07-27",
+      "detalle": [
+        {
+          "libroId": 5,
+          "cantidad": 1,
+          "precioUnitario": 60
+        }
+      ],
+      "total": 60
+    }
+  ]
+}
